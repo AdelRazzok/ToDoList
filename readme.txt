@@ -1,5 +1,3 @@
 "vanilla" JavaScript project
 
-Using : APIs, promises, classes, error handing...
-
-To add : arrow function, destructuring, asynch/await
+Todo List project, using only JavaScript. No library and no framework.

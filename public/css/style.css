@@ -49,6 +49,9 @@ body {
 #dayNb {
     font-size: 2.2rem;
 }
+#month, #year {
+	display: block;
+}
 #dayText {
     font-size: 1.3rem;
 }
