@@ -17,3 +17,10 @@ document.getElementById('year').innerText    = currentDate.getUTCFullYear();
 document.getElementById('dayText').innerText = currentDayToString(currentDate);
 
 // Add event modal
+const modalTriggers = document.querySelectorAll('.modal_trigger');
+
+modalTriggers.forEach(el => {
+	el.addEventListener('click', () => {
+		document.querySelector('.modal_container').classList.toggle('active');
+	});
+});
