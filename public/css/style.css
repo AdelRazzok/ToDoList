@@ -116,7 +116,7 @@ body {
 }
 
 .close_modal {
-	padding: 8px;
+	padding: 8px 12px;
 	border: none;
 	border-radius: 5px;
 	font-size: 18px;
@@ -127,13 +127,45 @@ body {
 	background: #ff365e;
 	color: #fff;
 }
+.close_modal:hover {
+	background: #ff5073;
+}
 
 .modal h1 {
-	margin-bottom: 10px;
-	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 2rem;
 	font-weight: 500;
 }
+
 .modal label {
-	line-height: 1.4;
-	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+.modal input {
+	margin: 1rem 0;
+	padding: 8px;
+	width: 100%;
+	outline: none;
+	font-size: 16px;
+	border: 1px solid #303030;
+	border-radius: 3px;
+}
+.modal input:focus {
+	border: 2px solid #39BC82;
+}
+
+.modal_validate {
+	display: block;
+	margin: auto;
+	margin-top: 1.5rem;
+	padding: 8px 16px;
+	font-size: 16px;
+	border: none;
+	border-radius: 3px;
+	background-color: #39BC82;
+	color: #fff;
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+}
+.modal_validate:hover {
+	cursor: pointer;
+	background-color: #4DE5A1;
 }
