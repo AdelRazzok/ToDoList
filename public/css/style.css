@@ -69,6 +69,12 @@ body {
     background-color: #4DE5A1;
 }
 
+.main {
+	width: 85%;
+	margin: auto;
+	margin-top: 2rem;
+}
+
 /***** ADD TASK MODAL *****/
 .modal_container {
 	visibility: hidden;

@@ -24,7 +24,8 @@
         </div>
 
         <div class="main">
-
+			<ul class="task_list">
+			</ul>
         </div>
 
         <button class="modal_trigger" type="button" id="addButton">+</button>
@@ -37,11 +38,13 @@
 			<button class="close_modal modal_trigger" aria-label="Close modal">X</button>
 			<h1 id="modalTitle">Ajoutez une tâche</h1>
 			<label class="modal_label" for="task" id="dialogDesc">Veuillez entrer le nom de votre tâche :</label>
-			<input class="modal_input" id="task" type="text" data-event="task" placeholder="Nom de votre tâche...">
+			<input class="modal_input" id="task" type="text" placeholder="Nom de votre tâche...">
 			<button class="modal_validate modal_trigger" type="button">Valider</button>
 		</div>
 	</div>
 
-	<script src="./public/js/main.js"></script>
+	<script src="./public/js/date.js"></script>
+	<script src="./public/js/modal.js"></script>
+	<script src="./public/js/app.js"></script>
 </body>
 </html>
